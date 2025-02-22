@@ -1,0 +1,253 @@
+* :not(dl, dd, dt) {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", serif;
+}
+/* Header */
+header {
+  text-align: center;
+  padding-top: 10px;
+  height: 200px;
+  background-color: #a0bccd;
+  width: 100%;
+}
+header > img {
+  display: block;
+  margin: auto;
+  width: 334px;
+  height: 100px;
+}
+header > h1 {
+  display: block;
+  margin-top: 2%;
+  color: white;
+}
+/* Navbar */
+nav {
+  background-color: #2e3a4b;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+nav > ul {
+  list-style-type: none;
+  display: inline;
+  max-height: 50px;
+}
+nav > ul > li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  padding: 50px;
+  color: #fff;
+}
+.navbar:hover {
+  color: #a0bccd;
+}
+.navbar:visited {
+  text-decoration: solid;
+}
+.navbar:active {
+  text-decoration: underline;
+  color: rgba(118, 141, 118, 0.741);
+}
+.visit_welcome {
+  margin: 1% 2% 3% 2%;
+  text-align: justify;
+}
+.visit_image {
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.visit img{
+  width: 800px;
+  height: 800px;
+}
+.visit_location {
+  float: left;
+  margin-left: 1%;
+}
+/* Form */
+.visit_reservations {
+  clear: both;
+}
+.visit_reservations h2,
+.visit_reservations fieldset {
+  text-align: center;
+}
+.visit_reservations h2 {
+  margin-bottom: 1%;
+}
+.visit_reservations fieldset:not(legend, label, input) {
+  max-width: 90%;
+  width: 700vh;
+  height: 100%;
+  margin: 0 auto;
+}
+legend {
+  text-align: start;
+  margin-left: 2%;
+  font-weight: 700;
+}
+.content_booking {
+  text-align: end;
+  margin-top: 1%;
+  margin-left: 8%;
+  display: block;
+}
+#date_booking,
+#time_booking,
+#visitors_booking {
+  float: left;
+}
+.button_booking {
+  float: left;
+  width: 500px;
+  margin: 0% 2% 0.5% 2%;
+}
+input[type="submit"] {
+  width: 30%;
+  float: left;
+  margin-right: 1%;
+}
+input[type="reset"] {
+  width: 20%;
+  float: left;
+}
+fieldset label {
+  font-weight: 700;
+}
+.button_booking {
+  display: block;
+}
+#submit_booking {
+  border: none;
+  padding: 5px;
+  background-color: #2e3a4b;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+}
+#submit_booking:hover {
+  animation: submitbutton 5s ease 0s 1 normal forwards;
+}
+@keyframes submitbutton {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+#reset_booking {
+  border: none;
+  padding: 5px;
+  background-color: #2e3a4b;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+}
+#reset_booking:hover {
+  animation: resetbutton 5s ease 0s 1 normal forwards;
+}
+@keyframes resetbutton {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+/* Footer */
+footer {
+  clear: both;
+  background-color: #c9d3e1;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+/* Responsive Pages */
+@media (max-width: 1256px) {
+}
+@media (max-width: 1086px) {
+  nav > ul > li > a {
+    text-decoration: none;
+    padding: 30px;
+    color: #fff;
+  }
+}
+@media (max-width: 840px) {
+  nav > ul > li > a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+  }
+  footer {
+    margin-top: 180px;
+  }
+}
+@media (max-width: 720px) {
+  #title_home {
+    font-size: 180%;
+  }
+}
+@media (max-width: 640px) {
+  nav > ul > li > a {
+    text-decoration: none;
+    padding: 7px;
+    color: #fff;
+  }
+  #title_home {
+    font-size: 160%;
+  }
+}
+@media (max-width: 570px) {
+  nav a {
+    font-size: 13px;
+  }
+  nav > ul > li > a {
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+  }
+  #title_home {
+    font-size: 140%;
+  }
+}
+@media (max-width: 488px) {
+  nav a {
+    font-size: 12px;
+  }
+  #title_home {
+    font-size: 120%;
+  }
+}
+@media (max-width: 429px) {
+  #vsn_top {
+    font-size: 150%;
+    margin-top: 20px;
+  }
+  nav a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1567px) {
+  .visit_image img {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 846px) {
+  .visit_image img {
+    width: 200px;
+    height: 200px;
+  }
+}

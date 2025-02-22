@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="TIMOTHY, Sean Darren" />
+    <meta name="description" content="Visionary Innovation Hub" />
+    <meta name="keywords" content="Visionary Innovation Hub" />
+    <link rel="stylesheet" href="../CSS/overall.css" />
+    <link rel="stylesheet" href="../CSS/design.css" />
+    <title>Design - Visionary Innovation Hub</title>
+  </head>
+  <body>
+    <header>
+      <img src="../asset/logo.png" alt="Visionary Innovation Hub Logo" />
+      <h1>Visionary Innovation Hub</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html" class="navbar">Home</a></li>
+        <li><a href="./about.html" class="navbar">About</a></li>
+        <li><a href="./apply.html" class="navbar">Apply</a></li>
+        <li><a href="./visit.html" class="navbar">Visit</a></li>
+        <li><a href="./information.html" class="navbar">Information</a></li>
+        <li><a href="./contact.html" class="navbar">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Start of Content -->
+    <h2>Design page</h2>
+    <h3>Name: TIMOTHY, Sean Darren</h3>
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Script Feature</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Let</td>
+            <td>
+              (apply.js - line 40, 44, 94, 98, 148, 152, 264, 299, 338, 351,
+              357, 359, 363, 365, 368, 371) ; (information.js - line 7, 24) ;
+              (visit.js - line 10, 11, 12)
+            </td>
+          </tr>
+          <tr>
+            <td>
+              I chose let to prevent variable scope overlap within the same
+              block. Let is used for in function-scoped and it's effective for
+              iteration (for) loop because let is limited to the block in which
+              it is declared it helps prevent unintended interactions between
+              variables.
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2">Const</td>
+            <td>
+              (information.js - line 2, 20) ; (apply.js - line 41, 45, 95, 99,
+              149, 153)
+            </td>
+          </tr>
+          <tr>
+            <td>
+              I chose const because I want to ensure that the values of my
+              variables remain unchanged, so I use const to prevent any updates
+              or mutations.
+            </td>
+          </tr>
+          <tr>
+            <td>HTML Event Handler</td>
+            <td>
+              (visit.html - line 114 (onsubmit="event.preventDefault()"))
+            </td>
+          </tr>
+          <tr>
+            <td>JavaScript Event Handler</td>
+            <td>
+              (information.js - line 1, 29) ; (visit.js - line 1, 9, 46) ;
+              (apply.js - line 1, 14, 15, 16, 42, 96, 150, 258, 347)
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Design Feature</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Positioning Schemes</td>
+            <td>Sticky Position (overall.css / line 4-7)</td>
+          </tr>
+          <tr>
+            <td>Round Corner</td>
+            <td>
+              Border round corner (index.css - line 81, 91, 101) (apply.css -
+              line 79, 143, 153, 172, 273, 335, 426), (visit.css - line 130,
+              152)
+            </td>
+          </tr>
+          <tr>
+            <td>Gradient Background</td>
+            <td>
+              Gradient Background When Hover The Table (design.css - line
+              96-103)
+            </td>
+          </tr>
+          <tr>
+            <td>Animation</td>
+            <td>
+              (apply.css - line 84-130, 254-267, 269-300, 316-344,
+              346-391)(visit.css - 135-146, 157-169)
+            </td>
+          </tr>
+          <tr>
+            <td>How styles are grouped into embedded style</td>
+            <td>
+              (overall.css - for font, navbar position, and some footer style
+              contents)
+            </td>
+          </tr>
+          <tr>
+            <td>Responsive</td>
+            <td>I used % in some parts and @media in every pages</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- End of Content -->
+    <footer>
+      <img
+        src="../asset/footer_logo.png"
+        alt="Visionary Innovation Hub Footer Logo"
+      />
+      <p>
+        &copy;CityU 2024 sources of images and text from Wikipedia Commons and
+        Courtesy of Icon pack by Icons8 -- designed by
+        <span
+          ><a href="./design.html" id="author">TIMOTHY, Sean Darren</a></span
+        >
+      </p>
+    </footer>
+  </body>
+</html>

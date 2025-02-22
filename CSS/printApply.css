@@ -1,0 +1,89 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* :not(dl, dd, dt) {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", serif;
+}
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+header img {
+  width: 334px;
+  height: 100px;
+}
+/* Navbar */
+nav {
+  display: none;
+}
+/* Title */
+#welcome_vih {
+  display: none;
+}
+#common_choice {
+  display: none;
+}
+/* Apply Block */
+.apply_block {
+  display: none;
+}
+.resulting {
+  margin-top: 2%;
+  clear: both;
+}
+.result_title {
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+table,
+td,
+th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+td,
+th,
+tr {
+  text-align: center;
+  padding: 20px;
+}
+thead th {
+  background-color: #243946;
+  color: white;
+}
+tr:nth-child(2n):not(th) {
+  background-color: #d2dae6;
+}
+tr:nth-child(2n + 1) {
+  background-color: #e4efffad;
+}
+tr:nth-child(n):hover {
+  background-color: #243946;
+  color: white;
+}
+.button_result {
+  margin-left: 2%;
+}
+/* Footer */
+footer {
+  clear: both;
+  background-color: #c9d3e1;
+  padding: 20px;
+}
+footer > img {
+  margin: 0 auto;
+  display: block;
+}
+footer > p {
+  margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+}
+footer a {
+  color: #0c3852;
+  font-weight: 600;
+  text-decoration: none;
+}

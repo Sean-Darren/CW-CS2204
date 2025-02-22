@@ -1,0 +1,284 @@
+* :not(dl, dd, dt) {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", serif;
+}
+/* Header */
+header {
+  text-align: center;
+  padding-top: 10px;
+  height: 100%;
+  background-color: #a0bccd;
+  width: 100%;
+}
+#logo_front {
+  width: 334px;
+  height: 100px;
+}
+header > img {
+  display: block;
+  margin: auto;
+}
+header > h1 {
+  display: block;
+  margin-top: 2%;
+  color: white;
+}
+#promotional_image {
+  width: 100%;
+  margin-top: 10px;
+}
+/* Navbar */
+nav {
+  background-color: #2e3a4b;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  clear: both;
+}
+nav > ul {
+  list-style-type: none;
+  display: inline;
+  max-height: 50px;
+}
+nav > ul > li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  padding: 50px;
+  color: #fff;
+}
+.navbar:hover {
+  color: #a0bccd;
+}
+.navbar:visited {
+  text-decoration: solid;
+}
+.navbar:active {
+  text-decoration: underline;
+  color: rgba(118, 141, 118, 0.741);
+}
+/* Paragraph Text */
+.paragraph_about {
+  margin-top: 2%;
+  max-width: 80%;
+  width: 40%;
+  display: inline-block;
+  text-align: justify;
+}
+.table_about {
+  margin-top: 2%;
+  max-width: 80%;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5%;
+}
+.contentabout {
+  text-align: center;
+}
+/* Table */
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+  border-collapse: collapse;
+}
+th {
+  background-color: #a0bccd84;
+}
+caption {
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+td:hover {
+  background-color: #2e3a4b;
+  color: white;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #c9d3e1;
+  width: 100%;
+}
+/* Responsive Pages */
+@media (max-width: 1270px) {
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1175px) {
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1146px) {
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 10px;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 770px) {
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 8px;
+  }
+  p {
+    font-size: 8px;
+  }
+}
+@media (max-width: 1086px) {
+  nav > ul > li > a {
+    text-decoration: none;
+    padding: 30px;
+    color: #fff;
+  }
+}
+@media (max-width: 840px) {
+  nav > ul > li > a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+  }
+  footer {
+    margin-top: 180px;
+  }
+  footer {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 720px) {
+  #title_home {
+    font-size: 180%;
+  }
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 6px;
+  }
+  p {
+    font-size: 6px;
+  }
+  footer {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 640px) {
+  nav > ul > li > a {
+    text-decoration: none;
+    padding: 7px;
+    color: #fff;
+  }
+  #title_home {
+    font-size: 160%;
+  }
+}
+@media (max-width: 570px) {
+  nav a {
+    font-size: 13px;
+  }
+  nav > ul > li > a {
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+  }
+  #title_home {
+    font-size: 140%;
+  }
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 5px;
+  }
+  p {
+    font-size: 5px;
+  }
+  footer {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 488px) {
+  nav a {
+    font-size: 12px;
+  }
+  #title_home {
+    font-size: 120%;
+  }
+}
+@media (max-width: 429px) {
+  #vsn_top {
+    font-size: 150%;
+    margin-top: 20px;
+  }
+  nav a {
+    font-size: 10px;
+  }
+}

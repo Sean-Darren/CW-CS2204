@@ -1,0 +1,30 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* Navbar Position */
+nav {
+  position: sticky;
+  top: 0;
+}
+/* Footer */
+footer > img {
+  margin: 0 auto;
+  display: block;
+  width: 260px;
+  height: 40px;
+}
+footer > p {
+  margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+}
+footer a {
+  color: #0c3852;
+  font-weight: 600;
+  text-decoration: none;
+}
+#author:hover {
+  color: rgba(69, 94, 137, 0.655);
+}
+#author:active {
+  color: #3a5981;
+}

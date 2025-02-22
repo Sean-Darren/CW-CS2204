@@ -1,0 +1,113 @@
+* :not(dl, dd, dt) {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", serif;
+}
+/* Header */
+header {
+  text-align: center;
+  padding-top: 10px;
+  height: 200px;
+  background-color: #a0bccd;
+  width: 100%;
+}
+header > img {
+  display: block;
+  margin: auto;
+  width: 334px;
+  height: 100px;
+}
+header > h1 {
+  display: block;
+  margin-top: 2%;
+  color: white;
+}
+/* Navbar */
+nav {
+  background-color: #2e3a4b;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+nav > ul {
+  list-style-type: none;
+  display: inline;
+  max-height: 50px;
+}
+nav > ul > li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  padding: 50px;
+  color: #fff;
+}
+.navbar:hover {
+  color: #a0bccd;
+}
+.navbar:visited {
+  text-decoration: solid;
+}
+.navbar:active {
+  text-decoration: underline;
+  color: rgba(118, 141, 118, 0.741);
+}
+/* Design Content */
+h2 {
+  text-align: center;
+  margin: 1%;
+}
+h3 {
+  margin-left: 2%;
+}
+/*Table Design */
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.table {
+  margin-top: 2%;
+  text-align: center;
+  width: 100%;
+}
+.table table {
+  width: 80%;
+  margin: 0 auto;
+}
+th,
+td {
+  text-align: center;
+  padding: 1%;
+}
+th {
+  background-color: #2e3a4bf4;
+  color: aliceblue;
+}
+tr:nth-child(2n) {
+  background-color: rgba(199, 199, 153, 0.204);
+}
+tr:nth-child(2n + 1):not(th) {
+  background-color: rgba(202, 214, 210, 0.481);
+}
+tr:hover {
+  background: rgb(52, 74, 133);
+  background: linear-gradient(
+    90deg,
+    rgba(52, 74, 133, 0.5746673669467788) 0%,
+    rgba(62, 94, 157, 1) 7%,
+    rgba(43, 69, 71, 1) 78%,
+    rgba(39, 70, 73, 1) 83%
+  );
+  color: white;
+}
+
+/* Footer */
+footer {
+  clear: both;
+  margin-top: 16.3%;
+  background-color: #c9d3e1;
+  padding: 20px;
+}
