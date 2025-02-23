@@ -26,7 +26,7 @@ JavaScript
 - Preventing default browser behaviors and improving user experience.
 
 ## Features
-- Responsive and mobile-friendly design.
+- Responsive design.
 - Organized navigation and content layout.
 - Interactive elements powered by JavaScript.
 - Use of animations and visual effects for a modern look.
